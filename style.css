@@ -18,6 +18,28 @@ main {
   margin: 80px 0;
 }
 
+main::before {
+  position: fixed;
+  content: "";
+  top: 80;
+  left: 0;
+  width: 160px;
+  height: 668px;
+  background: linear-gradient(to right, black, transparent);
+  z-index: 999;
+}
+
+main::after {
+  position: fixed;
+  content: "";
+  top: 80;
+  right: 0;
+  width: 160px;
+  height: 668px;
+  background: linear-gradient(to left, black, transparent);
+  z-index: 999;
+}
+
 span {
   margin: 20px;
 }
@@ -26,14 +48,10 @@ img {
   position: relative;
   border-right: 15px solid hotpink;
   border-bottom: 15px solid hotpink;
-  box-shadow: 2px 2px black, 8px 8px hotpink;
+  box-shadow: 2px 2px rgb(41, 41, 41), 8px 8px hotpink;
 }
 
 img::before {
   position: absolute;
   content: "reaessr";
-  background: hotpink;
-  width: inherit;
-  height: inherit;
-  top: 100px;
 }
