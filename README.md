@@ -2,8 +2,8 @@
 
 Let's use flexbox to create a simple slider that can be scrolled horizontally.
 
-* [] Images have various sizes (both portrait and landscape)
-* Slider can scroll horizontally (but not vertically)
+- [] Images have various sizes (both portrait and landscape)
+- Slider can scroll horizontally (but not vertically)
 
 Take a look at the example:
 
@@ -11,14 +11,14 @@ Take a look at the example:
 
 ## Extra
 
-* [] Images have a purple border effect
-* [] There is an overlay on each sides, that indicate there is content to be scrolled
+- [] Images have a purple border effect
+- [x] There is an overlay on each sides, that indicate there is content to be scrolled
 
 Take a look at the example:
 
 ![example](slider-final-example.png)
 
---------
+---
 
 You can use https://picsum.photos/ to get random pictures of various sizes, like so:
 
