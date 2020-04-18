@@ -1,4 +1,4 @@
-# Yet Another Slider (YAS)
+# Yet Another Slider
 
 Let's use flexbox to create a simple slider that can be scrolled horizontally.
 
